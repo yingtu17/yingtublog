@@ -4,18 +4,22 @@
             <News/>
             <div class="box2">
                 <div class="box2-small">
-                    <div class="small-box1">
-                        <img src="code.png" alt="">
-                        <div class="small-box-a">
-                            <p># code</p>
+                    <router-link to="code">
+                        <div class="small-box1">
+                            <img src="code.png" alt="">
+                            <div class="small-box-a">
+                                <p># code</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="small-box2">
-                        <img src="tech1.jpg" alt="">
-                        <div class="small-box-a">
-                            <p># tech</p>
+                    </router-link>
+                    <router-link to="tech">
+                        <div class="small-box2">
+                            <img src="tech1.jpg" alt="">
+                            <div class="small-box-a">
+                                <p># tech</p>
+                            </div>
                         </div>
-                    </div>
+                    </router-link>
                 </div>
                 <router-link to="article">
                     <div class="small-box3">
@@ -40,13 +44,13 @@
 
         <div class="container-box2">
             <div class="side-box1">
-                <MediumArticle/>
-                <SmallArticle/>
-                <SmallArticle/>
-                <MediumArticle/>
+                <BigArticle/>
             </div>
             <div class="side-box2">
-                <BigArticle/>
+                <MediumArticle/>
+                <SmallArticle/>
+                <SmallArticle/>
+                <MediumArticle/>
             </div>
         </div>
         <div class="container-box3">
@@ -76,11 +80,36 @@
                 </div>
             </div>
         </div>
-        <div class="container-box2">
-            <div class="side-box1">
+        <div class="container-box4">
+            <div class="side-boxA">
+                <SmallArticle/>
+                <MediumArticle/>
+                <MediumArticle/>
+                <SmallArticle/>
+            </div>
+            <div class="side-boxB">
                 <BigArticle/>
             </div>
-            <div class="side-box2">
+        </div>
+        <div class="container-box4">
+            <div class="side-boxA">
+                <BigArticle/>
+            </div>
+            <div class="side-boxB">
+                <SmallArticle/>
+                <MediumArticle/>
+                <MediumArticle/>
+                <SmallArticle/>
+            </div>
+        </div>
+        <div class="container-box4">
+            <div class="side-boxA">
+                <SmallArticle/>
+                <MediumArticle/>
+                <MediumArticle/>
+                <SmallArticle/>
+            </div>
+            <div class="side-boxB">
                 <SmallArticle/>
                 <MediumArticle/>
                 <MediumArticle/>
@@ -308,6 +337,24 @@ export default {
 .box-middle {
     width: 588px;
     height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.container-box4 {
+    display: flex;
+    margin-top: 24px;
+    gap: 24px;
+}
+
+.side-boxA {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.side-boxB {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;

@@ -25,7 +25,7 @@
             </el-carousel>
         </div>
         <Newest/>
-        <div class="content">
+        <div class="tech-content">
             <TechArticle/>
             <TechArticle/>
             <TechArticle/>
@@ -107,7 +107,7 @@ export default {
     height: 100%;
 }
 
-.content {
+.tech-content {
     width: 1200px;
     margin: 32px auto 0 auto;
     display: flex;

@@ -16,7 +16,8 @@ export default {
     },
     computed:{
         showTop: function(){
-            let value = this.scrollTop>500?true:false;
+            //  回到顶部 毫秒
+            let value = this.scrollTop>300?true:false;
             return value;
         },
     },

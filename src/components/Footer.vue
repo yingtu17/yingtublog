@@ -24,9 +24,6 @@
                 <li class="Friends-chain">
                     <p>友链:</p>
                     <a href="https://www.dgtle.com/" target="_blank">数字尾巴</a>
-                    <a href="https://www.ruanyifeng.com/" target="_blank">阮一峰</a>
-                    <br>
-                    <a href="https://www.liaoxuefeng.com/" target="_blank">廖雪峰</a>
                     <a href="https://element.eleme.io/" target="_blank">Element</a>
                 </li>
                 <li class="Cooperation">

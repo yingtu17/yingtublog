@@ -2,12 +2,12 @@
     <div class="navbar">
         <router-link to="/home">
             <div class="navbar-box1">
-                <h1 class="font-effect-emboss">yingtu</h1>
+                <h1 class="font-effect-emboss"></h1>
             </div>
         </router-link>
         <div class="navbar-box2">
             <router-link to="/home"><p>Home</p></router-link>
-            <p>Code</p>
+            <router-link to="code"><p>Code</p></router-link>
             <router-link to="article"><p>Article</p></router-link>
             <router-link to="tech"><p>Sci-tech</p></router-link>
             <div class="dropdown">
